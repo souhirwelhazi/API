@@ -1,0 +1,66 @@
+
+.App {
+  height: 100vh;
+  background: linear-gradient(to bottom, #ffffff 0%, #3b022d 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+h1 {
+  font-style: italic;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #050552, 0 0 25px #ff00ff, 0 0 5px #ff0000;
+}
+.user-card {
+  background-color: #ffe0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  padding: 20px;
+  transition: transform 0.2s;
+  width: 800px;
+   height: 280px;
+   line-height: 2.5;
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+   
+}
+
+
+.user-card:hover {
+  transform: scale(1.2);
+}
+.nav-button {
+  background-color:  #f39ede;
+  border: none;
+  color: rgb(12, 10, 11);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10 px;
+  cursor: pointer;
+  border-radius: 29px;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #95d1e4;
+  transform: scale(1.2);
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
